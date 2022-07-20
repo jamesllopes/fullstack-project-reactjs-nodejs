@@ -6,7 +6,7 @@
     </div> -->
 
 ## :point_right: Acesse o Projeto
-https://pokedex-jamesllopes.vercel.app/
+https://dindinjl.herokuapp.com/
 
 
 ## :dart: Sobre o Projeto
