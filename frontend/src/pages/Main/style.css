@@ -1,0 +1,39 @@
+.dashboard {
+    background: var(--linear-gradient);
+    font-family: var(--lato);
+}
+
+.main__dashboard {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 10%);
+    background-color: var(--color-white);
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+    padding: 4em 6em;
+}
+
+.content__left {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.div__filter-options, .content__data {
+    width: 90%; 
+}
+
+.content__right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div__intern {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

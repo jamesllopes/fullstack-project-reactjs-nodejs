@@ -1,0 +1,91 @@
+.content__data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 7em;
+}
+
+.title__datas {
+    width: 100%;
+    background-color: var(--color-gray-light);
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.title, .data {
+    text-align: start;
+    width: 100%;
+}
+
+.datas {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid var(--color-gray-dark-transparencia);
+}
+
+
+.dateFormat, .valueFormat, .title {
+    font-weight: 700;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    cursor: pointer;
+}
+
+.btn__data {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    
+}
+
+.btn__edit, .btn__delete{
+    cursor: pointer;
+}
+
+.modal__delete {
+    z-index: 900;
+    position: absolute;
+    right: 5.2rem;
+    top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-blue-baby);
+    width:  10%;
+    gap: 0.2em;
+    padding: 0.2em;
+    border-radius: 0.4em;
+    font-family: var(--rubik);
+}
+
+.title__delete {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.btn__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6em;
+    width: 100%;
+}
+
+.btn__modal {
+    all: unset;
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 0.2em 0.7em;
+    border-radius: 0.3em;
+    color: var(--color-white);
+}

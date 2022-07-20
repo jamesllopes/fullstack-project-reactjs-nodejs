@@ -1,0 +1,19 @@
+.header {
+    justify-content: space-between;
+}
+
+.user__header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    color: var(--color-white);
+}
+
+.user__name {
+    font-weight: 500;
+    padding-right: 1em;
+}
+
+.exit {
+    cursor: pointer;
+}

@@ -1,0 +1,88 @@
+.btn-filter {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6%;
+    gap: 0.6em;
+    padding: 0.6em;
+    cursor: pointer;
+    background-color: var(--color-gray-light);
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.div__filter-options {
+    background-color: var(--color-gray-light);
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: var(--rubik);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5em;
+    padding: 2em;
+}
+
+.title__options {
+    font-weight: 500;
+    color: #b9b9b9;
+}
+
+.btns {
+    display: flex;
+    gap: 1em;
+    width: 50%;
+}
+
+.cat {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    width: 70%;
+}
+
+.btn-categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.6em;
+    padding: 0.6em;
+    width: 100%;
+    background-color: var(--color-gray-light);
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.plus {
+    width: 10px;
+}
+
+.btn-clean, .btn-apply {
+    all: unset;
+    padding: 1em;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 0.9em;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.btn-apply {
+    color: var(--color-white);
+    background-color: var(--color-purple);
+}
+
+.purple-bg {
+    background-color: var(--color-purple);
+  }
+
+.input__checkbox {
+    visibility: hidden;
+}

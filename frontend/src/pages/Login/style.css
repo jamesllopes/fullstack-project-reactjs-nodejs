@@ -1,0 +1,65 @@
+.main {
+    gap: 3em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 5em;
+}
+
+.content__main, .content__login {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__main {
+    width: 50%;
+    align-items: flex-start;  
+    color: var(--color-white);  
+    gap: 2em;
+}
+
+.content__title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.2em;
+    padding-right: 5em;
+}
+
+.content__title span {
+    color: var(--color-purple);
+}
+
+.content__desc {
+    font-weight: 400;
+    font-size: 2rem;
+    padding-right: 5.5em;
+    line-height: 1.2em;
+}
+
+.content__btn {
+    width: 40%;
+    padding: 1em;
+}
+
+.content__login {
+    gap: 3em;
+    width: 30%;
+    padding: 4em 1em;
+    background: var(--color-white);
+    align-items: center;
+}
+
+.login__title {
+    padding-top: 1em;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--color-purple);
+}
+
+.error {
+    color: var(--color-red);
+    font-weight: 500;
+    text-align: center;
+}
+

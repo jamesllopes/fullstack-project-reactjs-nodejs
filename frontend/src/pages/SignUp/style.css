@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.box__singnup {
+    background-color: var(--color-white);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    padding: 2em;
+    
+}
+
+.signup__title {
+    font-weight: 500;
+    color: var(--color-purple);
+    font-size: 1.6rem;
+}
+
+.form {
+    gap: 1em;
+}
+
+.login {
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--color-purple);
+}
+
+.link {
+    all: unset;
+    cursor: pointer;
+}
+
+.text_sucess {
+    font-weight: 700;
+    color: var(--color-green);
+}

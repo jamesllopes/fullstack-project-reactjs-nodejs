@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+:root {
+  --color-white: #fff;
+  --color-purple:#7978D9;
+  --color-blue-light:#05EDE3;
+  --color-blue-dark: #000A4A;
+  --color-orange: #FA8C10;
+  --color-pink: #FF57D3;
+  --color-gray-dark: #484848;
+  --color-gray-light: #FAFAFA;
+  --color-gray-medium: #B9B9B9;
+  --color-gray-dark-transparencia: #4848488e;
+  --color-red: #e21313;
+  --color-green: #06610a;
+  --color-blue-baby: #E4F2FD;
+  --lato: 'Lato', sans-serif;
+  --rubik: 'Rubik', sans-serif;
+  --linear-gradient: linear-gradient(to right, #05EDE3, #7978D9);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  padding: 2em 5em;
+  font-family: var(--rubik);
+}
+
+.img__header {
+  width: 150px;
+}
+
+.container {
+  height: 100vh;
+  max-width: 100vw;
+  background: url('../src/assets/background.png') no-repeat;
+  background-size: cover;
+  font-family: var(--rubik);
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  gap: 2em;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email__label, .pass__label, .name__label, .pass--conf__label {
+  gap: 0.5em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-gray-dark);
+  font-size: 1.1rem;
+}
+
+.input {
+  border: 1px solid var(--color-gray-dark);
+  width: 100%;
+  padding: 0.6em;
+  border-radius: 0.3em;
+}
+
+
+.btn {
+  all: unset;
+  color: var(--color-white);
+  background-color: var(--color-purple);
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-radius: 0.3em;
+}
+
+.login__btn, .cadastrar__btn {
+  margin: 1em 0;
+  width: 100%;
+  padding: 1em 0;
+}
+
+.orange {
+  color: var(--color-orange);
+}
+
+.purple {
+  color: var(--color-purple);
+}
+
+.blue {
+  color: var(--color-blue-light);
+}
+
+.red-bg {
+  background-color: var(--color-red);
+}
+
+.blue-bg {
+  background-color: var(--color-blue-dark);
+}
+
+
+

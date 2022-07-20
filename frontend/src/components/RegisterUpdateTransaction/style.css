@@ -1,0 +1,44 @@
+.type__box {
+    display: flex;
+    width: 100%;
+}
+
+.type__label {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    border-radius: 0.4em;
+    width: 50%;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.input__radio {
+    display: none;
+}
+
+.value__label, .category__label, .date__label, .desc__label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.select {
+    overflow-x: auto;
+}
+
+.blue-bg {
+    background: var(--color-blue-light);
+  }
+
+.gray-bg {
+    background: var(--color-gray-medium);
+  }
+  
+.red-bg {
+    background: var(--color-red);
+  }
+
