@@ -1,1 +1,0 @@
-module.exports = 'desafiomodulo03DDST06';

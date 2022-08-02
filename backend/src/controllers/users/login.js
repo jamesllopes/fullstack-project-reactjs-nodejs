@@ -1,7 +1,6 @@
 const conexao = require('../../conexao');
 const senhaCriptografada = require('secure-password');
 const jwt = require('jsonwebtoken');
-const segredo = require('../../chave-secreta');
 
 const pwd = senhaCriptografada();
 
@@ -44,7 +43,7 @@ const login = async (req, res) => {
                 nome: usuarioEncontrado.nome,
                 email: usuarioEncontrado.email
             },
-            segredo,
+            process.env.KEY_JWT,
             {
                 expiresIn: "2h"
             }

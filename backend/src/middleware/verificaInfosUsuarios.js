@@ -1,23 +1,19 @@
-const verificaEmailSenha = (req, res, next) => {
-    const { email, senha } = req.body;
+const schemaCadastroUser = require('../validation/schemaCadastroUser.js ')
+const schemaLoginUser = require('../validation/schemaLoginUsers')
 
+const verificaEmailSenha = async (req, res, next) => {
     try {
-        if (!email || !senha) {
-            return res.status(400).json({ "mensagem": "Para realizar o login, informar email e senha" })
-        }
+        await schemaLoginUser.validate(req.body)
+
     } catch (error) {
         return res.status(500).json({ "error": error.message })
     }
-
     next()
 }
 
-const verificaNomeEmailSenha = (req, res, next) => {
-    const { nome, email, senha } = req.body;
+const verificaNomeEmailSenha = async (req, res, next) => {
     try {
-        if (!nome || !email || !senha) {
-            return res.status(400).json({ "mensagem": "Todos os campos são obrigatórios" });
-        }
+        await schemaCadastroUser.validate(req.body)
 
     } catch (error) {
         return res.status(500).json({ "error": error.message })
