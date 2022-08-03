@@ -12,7 +12,7 @@ const listarCategorias = async (req, res) => {
         return res.status(200).json(rows);
 
     } catch (e) {
-        return res.status(401).json(e.message);
+        return res.status(400).json(e.message);
     }
 }
 
