@@ -6,7 +6,7 @@ const listarCategorias = async (req, res) => {
         const { rowCount, rows } = await conexao.query(query);
 
         if (rowCount === 0) {
-            return res.status(400).json({ "mensagem": "Não foi possível listar categorias" });
+            return res.status(404).json({ "mensagem": "Não foi possível listar categorias" });
         }
 
         return res.status(200).json(rows);
